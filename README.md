@@ -1,10 +1,9 @@
-# Student–Teacher Web API — EF Core Database-First Approach
+# Student–Teacher Web API - EF Core Database-First Approach
 
-**PROG6212 Programming 2B | Student support example | ASP.NET Core Web API (.NET 10)**
 
-This repository demonstrates how to develop a RESTful ASP.NET Core Web API using **Entity Framework Core Database First (reverse engineering)** and an existing **SQL Server** database. It is a learning resource for understanding database connections, scaffolding, dependency injection, authentication, authorization and API testing.
+This repository demonstrates how to develop a RESTful ASP.NET Core Web API using **Entity Framework Core Database First (reverse engineering)** and an existing **SQL Server** database. It is a learning resource for understanding database connections, scaffolding, dependency injection, authentication, and authorization.
 
-> **Important for the RaceDay POE:** This is a **Student–Teacher example, not the RaceDay solution**. Use it to understand the workflow, then implement your own RaceDay entities, endpoints and rules from your approved Part 1 ERD, SQL script and API endpoint plan. Students may use Code First or Database First as communicated by the lecturer; all other Part 2 requirements, including unit tests and CI/CD, remain applicable.
+> **Important for the RaceDay POE:** This is a **Student–Teacher example, not the RaceDay solution**. Use it to understand the workflow, then implement your own RaceDay entities, endpoints and rules from your  Part 1 ERD, SQL script and API endpoint plan. You may use Code First or Database First as communicated earlier on; all other Part 2 requirements, including unit tests and CI/CD, remain applicable.
 
 ## Repository contents
 
@@ -34,15 +33,12 @@ StudentTeacherDatabaseApproach/
 
 **SQL Server** is the database engine. **SSMS** is a graphical tool for connecting to it. **LocalDB** and **SQLEXPRESS** are different local SQL Server instance options; either can be used with EF Core Code First or Database First.
 
-## Quick start — run the supplied API
+## Quick start - run the supplied API
 
 ### 1. Download the project
 
 Select **Code → Download ZIP** on GitHub and extract it, or clone the repository:
 
-```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
-```
 
 Open `StudentTeacherDatabaseApproach/StudentTeacherDatabaseApproach.slnx` in Visual Studio. (Alternatively, open the `.csproj` directly.)
 
@@ -186,9 +182,9 @@ The snippet above belongs **inside the startup configuration after creating `bui
 
 ## Relation to the RaceDay POE
 
-This project is **supporting learning material**, not an assessment submission. In your own RaceDay project, use the **entities, constraints and endpoints from your approved Part 1 plan**, not Student–Teacher names. Whether you choose Code First or Database First (as permitted by the lecturer's additional instructions), your Part 2 work must still include the required API features, role/session authentication, password hashing, Swagger documentation, **unit tests**, **GitHub Actions CI/CD**, your own meaningful commits, and the README/video evidence required by the POE.
+This project is **supporting learning material**, not an assessment submission. In your own RaceDay project, use the **entities, constraints and endpoints from your  Part 1 plan**, not Student–Teacher names. Whether you choose Code First or Database First (as permitted by the additional instructions), your Part 2 work must still include the required API features, role/session authentication, password hashing, Swagger documentation, **unit tests**, **GitHub Actions CI/CD**, your own meaningful commits, and the README/video evidence required by the POE.
 
-The lecturer's example does not need to include a test project for you to understand Database First. However, **your own assessed RaceDay Part 2 does require tests**. Do not copy this API or its code as your own assessment work without appropriate disclosure and acknowledgement under your module's academic-integrity rules.
+This example does not need to include a test project for you to understand Database First. However, **your own assessed RaceDay Part 2 does require tests**. Do not copy this API or its code as your own assessment work without appropriate disclosure and acknowledgement under your module's academic-integrity rules.
 
 ## Further reading
 
