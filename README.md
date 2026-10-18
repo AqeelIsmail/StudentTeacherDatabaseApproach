@@ -9,19 +9,20 @@ This repository demonstrates how to develop a RESTful ASP.NET Core Web API using
 
 ```text
 StudentTeacherDatabaseApproach/
-├── README.md                         # These instructions
-├── StudentTeacher.sql                # Creates and seeds StudentTeacherDB
+├── README.md                        
+├── StudentTeacher.sql                
 ├── .gitignore
+└── StudentTeacherDatabaseApproach.slnx
 └── StudentTeacherDatabaseApproach/
-    ├── Controllers/                  # API endpoints and role restrictions
-    ├── Data/                         # Scaffolded StudentTeacherDbContext
-    ├── DTOs/                         # API request/response shapes
-    ├── Models/                       # Seven scaffolded entity classes
+    ├── Controllers/                  
+    ├── Data/                         
+    ├── DTOs/                         
+    ├── Models/                       
     ├── Properties/launchSettings.json
     ├── appsettings.json
     ├── Program.cs
     ├── StudentTeacherDatabaseApproach.csproj
-    └── StudentTeacherDatabaseApproach.slnx
+    
 ```
 
 ## Prerequisites
@@ -40,7 +41,7 @@ StudentTeacherDatabaseApproach/
 Select **Code → Download ZIP** on GitHub and extract it, or clone the repository:
 
 
-Open `StudentTeacherDatabaseApproach/StudentTeacherDatabaseApproach.slnx` in Visual Studio. (Alternatively, open the `.csproj` directly.)
+Open StudentTeacherDatabaseApproach.slnx in Visual Studio. (Alternatively, open the `.csproj` directly.)
 
 ### 2. Create the SQL Server database
 
